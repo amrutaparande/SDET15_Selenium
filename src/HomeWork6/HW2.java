@@ -14,7 +14,7 @@ public class HW2 {
 3.Clear the existing text in the  editor inside the iframe
 4.Enter the text "Hello World!" in the editor inside the iframe
 5.Switch back to the main page*/
-        System.setProperty("webdrive.crome.driver","Drivers/ChromeDriver.exe");
+        System.setProperty("webdriver.chrome.driver","Drivers/ChromeDriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
